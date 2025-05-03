@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore model files
+*.pkl
+*.joblib
+
+# Ignore dataset files
+data/*.csv
+
+# Ignore environment files
+.env
+
+# VSCode settings (optional)
+.vscode/
